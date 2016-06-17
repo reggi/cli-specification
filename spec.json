@@ -22,6 +22,14 @@
 				"required": true
 			}
 		},
-		"executable": "./test.js"
+		"//comment": "executable can contain direct executable file or handler to fire a specific function within a file",
+		"executable": {
+			"language": "node",
+			"//comment": "call specifc function and pass variables into function",
+			"handler": "./test.example",
+			"// can pass arguments, or object of arguments": true,
+			"arguments": ["NAME", "VALUE"],
+			"arguments": [{"NAME": true, "VALUE": true}]
+		}
 	}
 }
