@@ -23,6 +23,7 @@
 			}
 		},
 		"//comment": "executable can contain direct executable file or handler to fire a specific function within a file",
+		"//comment": "if just file is passed input vars are put in as process.env vars (language agnostic)",
 		"executable": {
 			"language": "node",
 			"//comment": "call specifc function and pass variables into function",
