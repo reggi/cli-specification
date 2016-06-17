@@ -1,0 +1,27 @@
+{
+	"example": {
+		"prereq": [
+			"node"
+		],
+		"typos": [
+		  "exampel",
+		  "exmaple",
+		  "eaxmple",
+		  "eaxmple",
+		  "exampke"
+		],
+		"input": {
+			"VALUE": {
+				"type": "argument",
+				"number": 1,
+				"required": false
+			},
+			"NAME": {
+				"type": "flag",
+				"value": ["--name", "-name", "--n", "-n"],
+				"required": true
+			}
+		},
+		"executable": "./test.js"
+	}
+}
